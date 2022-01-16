@@ -1,26 +1,14 @@
 # ConvNeXt-Tensorflow
-
-Unofficial TF2 Keras implementation of [ConvNeXt](https://github.com/facebookresearch/ConvNeXt).
-
 <div align="center">
 
-** Unofficial TF2/Keras implementation of [ConvNeXt](https://github.com/facebookresearch/ConvNeXt). Serializable. **
+**⚡ Unofficial TF2/Keras implementation of [ConvNeXt](https://github.com/facebookresearch/ConvNeXt). Serializable.**
 
 </div>
 
-* ⚡ Easy to deploy: Model is serializable & deployable to tensorflow-serving.
 
 ****
 
-Functional approach to make i
 
-```python
-import tensorflow as tf
-model = MobileV3Large.from_pretrained().cuda().eval()
-model.predict(images)
-```
-
-## Examples
 ```python
 import tensorflow as tf
 from models.convnext_tf import create_model
