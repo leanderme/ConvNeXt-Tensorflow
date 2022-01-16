@@ -33,6 +33,7 @@ print(model(randx)) # (1, 100)
 
 ## Thanks
 - TF2 with converted weights: https://github.com/bamps53/convnext-tf
+- https://github.com/dongkyuk/ConvNext-tensorflow
 - https://github.com/facebookresearch/ConvNeXt  
  
 ## Reference
