@@ -11,7 +11,6 @@
 
 ```python
 import tensorflow as tf
-from models.convnext_tf import create_model
 
 randx = tf.random.uniform((10, 32, 32, 3))
 
